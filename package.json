@@ -1,0 +1,26 @@
+{
+  "name": "api-lgbtqia",
+  "version": "1.0.0",
+  "description": "API com recursos e informações para comunidade LGBTQIA+, com foco em pessoas trans, travestis e não-binárias",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "lgbtqia",
+    "trans",
+    "direitos"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
