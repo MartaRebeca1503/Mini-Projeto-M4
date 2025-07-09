@@ -27,6 +27,9 @@ const midias = [
   { id: 3, tipo: "Série", titulo: "Pose", criador: "Ryan Murphy", descricao: "Série sobre a cultura ballroom e comunidade trans nos anos 80" }
 ];
 
+app.use(express.json()); // Necessário para ler corpo da requisição POST/PUT
+
+
 // Rota principal com documentação
 app.get("/", (req, res) => {
   res.json({
